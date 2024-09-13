@@ -19,12 +19,28 @@ ul, ol, li{
 /* FIM DO RESET */ 
 
 body {
+    height: 100vh;
+    display: flex;
     flex-direction: column;
 }
 header{
     height: 200px;
-    background-color: aqua;
-}main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
+main{
     flex-grow: 1;
     background-color: plum;
 
